@@ -4,6 +4,11 @@
     width: 90%;
 }
 
+.my-content {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
 h1 {
     font-size: 34px;
     margin-top: 10vh;
@@ -39,4 +44,8 @@ h1 {
 
 li {
     font-size: 12px;
+}
+
+.overview {
+    background: #009cd1;
 }
