@@ -1,0 +1,115 @@
+body {
+    display: flex;
+    min-height: 100vh;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+p {
+    font-size: 12px;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background: #041226;
+    z-index: 100;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.nav p {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.sidebar {
+    width: 280px;
+    padding: 40px;
+    padding-top: 120px;
+    color: white;
+    background: #172c49;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
+
+.sidebarplaceholder {
+    flex: 0 0 280px;
+    padding: 40px;
+    color: white;
+    background: #172c49;
+}
+
+.sidebar .sidebarsection {
+    margin-bottom: 40px;
+}
+
+.sidebar a {
+    color: white !important;
+    opacity: 0.8;
+    font-size: 12px;
+}
+
+.main {
+    flex: 1;
+    padding: 80px 0 0 80px;
+    padding-top: 120px;
+}
+
+.day-container {
+    display: flex;
+}
+
+.day-container h1 {
+    margin-bottom: 20px;
+}
+
+.day-details {
+    padding-top: 50px;
+    margin-left: 60px;
+}
+
+.day-details-section {
+    margin-bottom: 40px;
+}
+
+.schedule {
+    border: 1px solid #ddd;
+    width: 400px;
+}
+
+.schedule-item {
+    border-bottom: 1px solid #ddd;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.schedule-item span {
+    width: 120px;
+    font-weight: bold;
+}
+
+hr {
+    margin: 80px 0;
+}
