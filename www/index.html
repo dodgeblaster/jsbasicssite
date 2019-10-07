@@ -11,240 +11,645 @@
             integrity="sha256-vK3UTo/8wHbaUn+dTQD0X6dzidqc5l7gczvH+Bnowwk="
             crossorigin="anonymous"
         />
-        <link rel="stylesheet" href="./app.css" />
+        <link rel="stylesheet" href="./js.css" />
     </head>
+
     <body>
-        <section class="hero is-medium is-primary is-bold">
-            <div class="hero-body">
-                <div class="container">
-                    <h1 class="title">
-                        Git and Sass Course
-                    </h1>
-                    <h2 class="subtitle">
-                        Website
-                    </h2>
-                </div>
+        <div class="nav">
+            <p>SAIT Web Dev Fast Track Program - Javascript Course</p>
+        </div>
+        <div class="sidebar">
+            <div class="sidebarsection">
+                <h1>Syllabus</h1>
+                <a href="https://github.com/dodgeblaster/jscourse"
+                    >Link to Syllabus</a
+                >
             </div>
-        </section>
 
-        <div class="wrapper my-content">
-            <h1>Schedule 2</h1>
-            <hr />
+            <div class="sidebarsection">
+                <h1>Assignments</h1>
+                <a
+                    href="https://github.com/dodgeblaster/jscourse/tree/master/assignments/assignment-1"
+                    >Assignment #1</a
+                ><br />
+                <a
+                    href="https://github.com/dodgeblaster/jscourse/tree/master/assignments/assignment-2"
+                    >Assignment #2</a
+                ><br />
+                <a
+                    href="https://github.com/dodgeblaster/jscourse/tree/master/assignments/assignment-3"
+                    >Assignment #3</a
+                ><br />
+                <a
+                    href="https://github.com/dodgeblaster/jscourse/tree/master/assignments/assignment-4"
+                    >Assignment #4</a
+                >
+            </div>
 
-            <div class="day-card-row">
-                <a
-                    href="https://github.com/dodgeblaster/githubcourse"
-                    class="day-card  overview"
-                >
-                    <p class="day">Course Details</p>
-                    <h2>Git and Sass</h2>
-                </a>
-                <a
-                    href="https://github.com/dodgeblaster/githubcourse/tree/master/chapters/Day01"
-                    class="day-card"
-                >
-                    <p class="day">Day 1</p>
-                    <h2>Git</h2>
-                    <hr />
-                    <ul>
-                        <li>How to use Git</li>
-                        <li>Git Flow</li>
-                        <li>Team workflows</li>
-                    </ul>
-                </a>
-
-                <a
-                    href="https://github.com/dodgeblaster/githubcourse/tree/master/chapters/Day02"
-                    class="day-card"
-                >
-                    <p class="day">Day 2</p>
-                    <h2>Git</h2>
-                    <hr />
-                    <ul>
-                        <li>Deployment with AWS</li>
-                        <li>Deployment with Netlify</li>
-                        <li>Continuous Integration</li>
-                    </ul>
-                </a>
-
-                <a
-                    href="https://github.com/dodgeblaster/githubcourse/tree/master/chapters/Day03"
-                    class="day-card"
-                >
-                    <p class="day">Day 3</p>
-                    <h2>Sass</h2>
-                    <hr />
-                    <ul>
-                        <li>Command Line</li>
-                        <li>NPM and Gulp JS</li>
-                        <li>Sass</li>
-                    </ul>
-                </a>
-                <a
-                    href="https://github.com/dodgeblaster/githubcourse/tree/master/chapters/Day04"
-                    class="day-card"
-                >
-                    <p class="day">Day 4</p>
-                    <h2>Sass</h2>
-                    <hr />
-                    <ul>
-                        <li>Group Project</li>
-                    </ul>
+            <div class="sidebarsection">
+                <h1>The Book</h1>
+                <a href="https://eloquentjavascript.net/">
+                    Link to Book
                 </a>
             </div>
 
-            <hr />
-            <div class="day-card-row">
+            <div class="sidebarsection">
+                <h1>Other Resources</h1>
                 <a
-                    href="https://dazzling-mayer-6e65ea.netlify.com/"
-                    class="day-card"
+                    href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                    >MDN Javascript</a
                 >
-                    <p class="day">Dev Team Dashboard</p>
-                    <h2>Blogs</h2>
-                    <hr />
-                </a>
+                <br /><a href="https://github.com/getify/You-Dont-Know-JS"
+                    >You Don't Know JS Books</a
+                ><br/>
+                <a href="https://auth0.com/blog/a-brief-history-of-javascript/">History of JS</a>
             </div>
-
-            <!-- <h1>JS Basics</h1>
-            <hr />
-
-            <div class="day-card-row">
-                <a
-                    href="https://github.com/dodgeblaster/jscourse/tree/master/chapters/Day1"
-                    class="day-card"
-                >
-                    <p class="day">Day 1</p>
-                    <h2>Basics</h2>
-                    <hr />
-                    <ul>
-                        <li>Types and Values</li>
-                        <li>Structure</li>
-                        <li>Functions</li>
-                    </ul>
-                </a>
-                <a
-                    href="https://github.com/dodgeblaster/jscourse/tree/master/chapters/Day2"
-                    class="day-card"
-                >
-                    <p class="day">Day 2</p>
-                    <h2>Functions</h2>
-                    <hr />
-                    <ul>
-                        <li>Functions</li>
-                        <li>Data structures</li>
-                        <li>Array Functions</li>
-                    </ul>
-                </a>
-                <a
-                    href="https://github.com/dodgeblaster/jscourse/tree/master/chapters/Day3"
-                    class="day-card"
-                >
-                    <p class="day">Day 3</p>
-                    <h2>The DOM</h2>
-                    <hr />
-                    <ul>
-                        <li>The Browser</li>
-                        <li>The DOM</li>
-                        <li>Event Handling</li>
-                    </ul>
-                </a>
-                <a
-                    href="https://github.com/dodgeblaster/jscourse/tree/master/chapters/Day4"
-                    class="day-card"
-                >
-                    <p class="day">Day 4</p>
-                    <h2>API's</h2>
-                    <hr />
-                    <ul>
-                        <li>AJAX</li>
-                        <li>Async Programming</li>
-                        <li>Accessing API's</li>
-                    </ul>
-                </a>
-                <a
-                    href="https://github.com/dodgeblaster/jscourse/tree/master/chapters/Day5"
-                    class="day-card"
-                >
-                    <p class="day">Day 5</p>
-                    <h2>Modern Tooling</h2>
-                    <hr />
-                    <ul>
-                        <li>Error Handling & Regex</li>
-                        <li>NPM Modules</li>
-                        <li>Tooling</li>
-                    </ul>
-                </a>
-
-                <div class="day-card blank"></div>
-                <a
-                    href="https://github.com/dodgeblaster/jscourse/tree/master/chapters/Day6"
-                    class="day-card"
-                >
-                    <p class="day">Day 6</p>
-                    <h2>React JS</h2>
-                    <hr />
-                    <ul>
-                        <li>Starting React</li>
-                        <li>JSX</li>
-                        <li>Rendering Elements</li>
-                    </ul>
-                </a>
-                <a
-                    href="https://github.com/dodgeblaster/jscourse/tree/master/chapters/Day7"
-                    class="day-card"
-                >
-                    <p class="day">Day 7</p>
-                    <h2>React JS</h2>
-                    <hr />
-                    <ul>
-                        <li>Components and Props</li>
-                        <li>State and Lifecycle</li>
-                        <li>Handling Events</li>
-                    </ul>
-                </a>
-                <a
-                    href="https://github.com/dodgeblaster/jscourse/tree/master/chapters/Day8"
-                    class="day-card"
-                >
-                    <p class="day">Day 8</p>
-                    <h2>React JS</h2>
-                    <hr />
-                    <ul>
-                        <li>Conditional Rendering</li>
-                        <li>List and Keys</li>
-                        <li>Forms</li>
-                    </ul>
-                </a>
-                <a
-                    href="https://github.com/dodgeblaster/jscourse/tree/master/chapters/Day9"
-                    class="day-card"
-                >
-                    <p class="day">Day 9</p>
-                    <h2>React JS</h2>
-                    <hr />
-                    <ul>
-                        <li>Lifting State Up</li>
-                        <li>Composition vs Inheritence</li>
-                        <li>Thinking in React</li>
-                    </ul>
-                </a>
-            </div> -->
         </div>
 
-        <footer class="footer">
-            <div class="content has-text-centered">
-                <p>
-                    <strong>Bulma</strong> by
-                    <a href="https://jgthms.com">Jeremy Thomas</a>. The source
-                    code is licensed
-                    <a href="http://opensource.org/licenses/mit-license.php"
-                        >MIT</a
-                    >. The website content is licensed
-                    <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"
-                        >CC BY NC SA 4.0</a
-                    >.
-                </p>
+        <div class="sidebarplaceholder"></div>
+
+        <div class="main">
+            <!-- * * * * * * * * * * * * * * * * * * * * 
+            DAY 1
+            * * * * * * * * * * * * * * * * * * * *  -->
+            <div class="day-container">
+                <div>
+                    <h1>Day 1 - Oct 7</h1>
+                    <div class="schedule">
+                        <div class="schedule-item">
+                            <span>8:00 - 9:30</span> 1. Intro
+                        </div>
+                        <div class="schedule-item">
+                            <span>9:30 - 9:45</span>Break
+                        </div>
+                        <div class="schedule-item">
+                            <span>9:45 - 10:30</span> 2. Values, Types, and
+                            Operators
+                        </div>
+                        <div class="schedule-item">
+                            <span></span> Exercise Sorting Hat
+                        </div>
+                        <div class="schedule-item">
+                            <span>10:30 - 10:45</span> Break
+                        </div>
+                        <div class="schedule-item">
+                            <span>10:45 - 11:30</span> 3. Program Structure
+                        </div>
+                        <div class="schedule-item">
+                            <span></span> Exercise FizzBizz
+                        </div>
+                        <div class="schedule-item">
+                            <span>11:30 - 12:30</span> Lunch
+                        </div>
+                        <div class="schedule-item">
+                            <span>12:30 - 1:30</span> Exercise Create Chessboard
+                        </div>
+                        <div class="schedule-item">
+                            <span>1:30 - 1:45</span> Break
+                        </div>
+                        <div class="schedule-item">
+                            <span>1:45 - 3:00</span> Intro to Functions
+                        </div>
+                    </div>
+                </div>
+                <div class="day-details">
+                    <div class="day-details-section">
+                        <h2>Day 1</h2>
+                        <p>Read Chapters 1, 2</p>
+                        <p>
+                            <a
+                                href="https://github.com/dodgeblaster/jscourse/tree/master/chapters/Day1"
+                                >Overview</a
+                            >
+                        </p>
+                    </div>
+                    <div class="day-details-section">
+                        <h2>1. Intro to JS</h2>
+                        <p><a href="https://github.com/dodgeblaster/jscourse/tree/master/chapters/Day1/01_intro">Notes</a></p>
+                    </div>
+                    <div class="day-details-section">
+                        <h2>2. Values, Types, and Operators</h2>
+                        <p><a href="https://github.com/dodgeblaster/jscourse/tree/master/chapters/Day1/02_Values_Types_andOperators">Notes</a></p>
+                        <p><a href="https://htmlbasicsresources.s3.amazonaws.com/js-exercise-01-02.zip">Exercises</a></p>
+                    </div>
+                    <div class="day-details-section">
+                        <h2>3. Program Structure</h2>
+                        <p><a href="https://github.com/dodgeblaster/jscourse/tree/master/chapters/Day1/03_ProgramStructure">Notes</a></p>
+                        <p><a href="https://htmlbasicsresources.s3.amazonaws.com/js-exercise-01-03.zip">Exercises</a></p>
+                    </div>
+                    <div class="day-details-section">
+                        <h2>4. Functions Intro</h2>
+                        <p><a href="https://github.com/dodgeblaster/jscourse/blob/master/chapters/Day1/04_Functions_Intro.md">Notes</a></p>
+                    </div>
+                </div>
             </div>
-        </footer>
+ 
+
+            <hr />
+
+            <!-- * * * * * * * * * * * * * * * * * * * * 
+            DAY 2
+            * * * * * * * * * * * * * * * * * * * *  -->
+            <div class="day-container">
+                <div>
+                    <h1>Day 2 - Oct 8</h1>
+                    <div class="schedule">
+                        <div class="schedule-item">
+                            <span>8:00 - 9:30</span> 1. Functions
+                        </div>
+                        <div class="schedule-item">
+                            <span></span> Exercise : Minimum function
+                        </div>
+                        <div class="schedule-item">
+                            <span></span> Exercise : Bean counting function
+                        </div>
+                        <div class="schedule-item">
+                            <span>9:30 - 9:45</span>Break
+                        </div>
+                        <div class="schedule-item">
+                            <span>9:45 - 10:30</span> 2. Data Structures
+                        </div>
+                        <div class="schedule-item">
+                            <span></span> Exercise : Make range function
+                        </div>
+                        <div class="schedule-item">
+                            <span></span> Exercise : Make add10Points function
+                        </div>
+                       
+                        <div class="schedule-item">
+                            <span>10:30 - 10:45</span> Break
+                        </div>
+                        <div class="schedule-item">
+                            <span>10:45 - 11:30</span> 3. Higher Order Functions
+                        </div>
+                       
+                        <div class="schedule-item">
+                            <span>11:30 - 12:30</span> Lunch
+                        </div>
+                        <div class="schedule-item">
+                            <span>12:30 - 1:30</span> 3. Higher Order Functions
+                        </div>
+                        <div class="schedule-item">
+                            <span></span> Exercise : map filter reduce tasks
+                        </div>
+                        <div class="schedule-item">
+                            <span>1:30 - 1:45</span> Break
+                        </div>
+                        <div class="schedule-item">
+                            <span>1:45 - 3:00</span> Make Calculator
+                        </div>
+                    </div>
+                </div>
+                <div class="day-details">
+                    <div class="day-details-section">
+                        <h2>Day 2</h2>
+                        <p>Read Chapters 3, 4, 5</p>
+                        <p>Read about closures <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures'>here</a></p>
+                        <p>
+                            <a
+                                href="https://github.com/dodgeblaster/jscourse/tree/master/chapters/Day2"
+                                >Overview</a
+                            >
+                        </p>
+                    </div>
+                    <div class="day-details-section">
+                        <h2>1. Functions</h2>
+                        <p><a href="https://github.com/dodgeblaster/jscourse/tree/master/chapters/Day2/01_Functions">Notes</a></p>
+                      
+                    </div>
+                    <div class="day-details-section">
+                        <h2>2. Data Structures</h2>
+                        <p><a href="https://github.com/dodgeblaster/jscourse/tree/master/chapters/Day2/02_DataStructures">Notes</a></p>
+                 
+                    </div>
+                    <div class="day-details-section">
+                        <h2>3. Higher Order Functions</h2>
+                        <p><a href="https://github.com/dodgeblaster/jscourse/tree/master/chapters/Day2/03_HigherOrderFunctions">Notes</a></p>
+                 
+                    </div>
+                </div>
+            </div>
+
+            <hr />
+            <!-- * * * * * * * * * * * * * * * * * * * * 
+            DAY 3
+            * * * * * * * * * * * * * * * * * * * *  -->
+            <div class="day-container">
+                <div>
+                    <h1>Day 3 - Oct 9</h1>
+                    <div class="schedule">
+                        <div class="schedule-item">
+                            <span>8:00 - 9:30</span> 1. The Browser
+                        </div>
+                        <div class="schedule-item">
+                            <span>9:30 - 9:45</span>Break
+                        </div>
+                        <div class="schedule-item">
+                            <span>9:45 - 10:30</span> 2. The DOM
+                        </div>
+
+                        <div class="schedule-item">
+                            <span>10:30 - 10:45</span> Break
+                        </div>
+                        <div class="schedule-item">
+                            <span>10:45 - 11:30</span> 3. Handling Events
+                        </div>
+
+                        <div class="schedule-item">
+                            <span>11:30 - 12:30</span> Lunch
+                        </div>
+                        <div class="schedule-item">
+                            <span>12:30 - 1:30</span> Build calculator together
+                        </div>
+                        <div class="schedule-item">
+                            <span>1:30 - 1:45</span> Break
+                        </div>
+                        <div class="schedule-item">
+                            <span>1:45 - 3:00</span> Assignment #1
+                        </div>
+                    </div>
+                </div>
+                <div class="day-details">
+                    <div class="day-details-section">
+                        <h2>Day 3</h2>
+                        <p>Read Chapters 13, 14, 15</p>
+                        <p>
+                            <a
+                                href="https://github.com/dodgeblaster/jscourse/tree/master/chapters/Day3"
+                                >Overview</a
+                            >
+                        </p>
+                    </div>
+                    <div class="day-details-section">
+                        <h2>1. The Browser</h2>
+                        <p><a href="https://github.com/dodgeblaster/jscourse/tree/master/chapters/Day3/01_The_Browser">Notes</a></p>
+                    </div>
+                    <div class="day-details-section">
+                        <h2>2. The DOM</h2>
+                        <p><a href="https://github.com/dodgeblaster/jscourse/tree/master/chapters/Day3/02_The_DOM">Notes</a></p>
+                  
+                    </div>
+                    <div class="day-details-section">
+                        <h2>3. Handling Events</h2>
+                        <p><a href="https://github.com/dodgeblaster/jscourse/tree/master/chapters/Day3/03_Handling_Events">Notes</a></p>
+                     
+                    </div>
+                </div>
+            </div>
+
+            <hr />
+
+            <!-- * * * * * * * * * * * * * * * * * * * * 
+            DAY 4
+            * * * * * * * * * * * * * * * * * * * *  -->
+            <div class="day-container">
+                <div>
+                    <h1>Day 4 - Oct 10</h1>
+                    <div class="schedule">
+                        <div class="schedule-item">
+                            <span>8:00 - 9:30</span> Build Mobile Menu Together
+                        </div>
+                        <div class="schedule-item">
+                            <span>9:30 - 9:45</span>Break
+                        </div>
+                        <div class="schedule-item">
+                            <span>9:45 - 10:30</span> Assignment #2
+                        </div>
+
+                        <div class="schedule-item">
+                            <span>10:30 - 10:45</span> Break
+                        </div>
+                        <div class="schedule-item">
+                            <span>10:45 - 11:30</span> Assignment #2
+                        </div>
+
+                        <div class="schedule-item">
+                            <span>11:30 - 12:30</span> Lunch
+                        </div>
+                        <div class="schedule-item">
+                            <span>12:30 - 1:30</span> 1. Async Programming
+                        </div>
+                        <div class="schedule-item">
+                            <span>1:30 - 1:45</span> Break
+                        </div>
+                        <div class="schedule-item">
+                            <span>1:45 - 3:00</span> 1. Async Programming
+                        </div>
+                    </div>
+                </div>
+                <div class="day-details">
+                    <div class="day-details-section">
+                        <h2>Day 4</h2>
+                        <p>Read Chapters 11</p>
+                        <p>
+                            <a
+                                href="https://github.com/dodgeblaster/jscourse/tree/master/chapters/Day4"
+                                >Overview</a
+                            ><br/>
+                            <a href='https://htmlbasicsresources.s3.amazonaws.com/mobileMenuDemonstration.zip'>Mobile Menu Demonstration Files</a>
+                        </p>
+                    </div>
+                    <div class="day-details-section">
+                        <h2>1. Async Programming</h2>
+                        <p><a href="https://github.com/dodgeblaster/jscourse/tree/master/chapters/Day4/01_Async_Programming">Notes</a></p>
+                       
+                    </div>
+                </div>
+            </div>
+
+            <hr />
+
+            <!-- * * * * * * * * * * * * * * * * * * * * 
+            DAY 5
+            * * * * * * * * * * * * * * * * * * * *  -->
+            <div class="day-container">
+                <div>
+                    <h1>Day 5 - Oct 11</h1>
+                    <div class="schedule">
+                        <div class="schedule-item">
+                            <span>8:00 - 9:30</span> 1. HTTP and Forms
+                        </div>
+                        <div class="schedule-item">
+                            <span>9:30 - 9:45</span>Break
+                        </div>
+                        <div class="schedule-item">
+                            <span>9:45 - 10:30</span> Build Starwars
+                            encyclopedia together
+                        </div>
+
+                        <div class="schedule-item">
+                            <span>10:30 - 10:45</span> Break
+                        </div>
+                        <div class="schedule-item">
+                            <span>10:45 - 11:30</span> Assignment #3
+                        </div>
+
+                        <div class="schedule-item">
+                            <span>11:30 - 12:30</span> Lunch
+                        </div>
+                        <div class="schedule-item">
+                            <span>12:30 - 1:30</span> Assignment #3
+                        </div>
+                        <div class="schedule-item">
+                            <span>1:30 - 1:45</span> Break
+                        </div>
+                        <div class="schedule-item">
+                            <span>1:45 - 3:00</span> Assignment #3
+                        </div>
+                    </div>
+                </div>
+                <div class="day-details">
+                    <div class="day-details-section">
+                        <h2>Day 5</h2>
+                        <p>Read Chapters 18</p>
+                        <p>
+                            <a
+                                href="https://github.com/dodgeblaster/jscourse/tree/master/chapters/Day5"
+                                >Overview</a
+                            >
+                        </p>
+                    </div>
+                    <div class="day-details-section">
+                        <h2>1. HTTP and Forms</h2>
+                        <p><a href="https://github.com/dodgeblaster/jscourse/tree/master/chapters/Day5/01_HTTP_and_Forms">Notes</a></p>
+                     
+                    </div>
+                </div>
+            </div>
+
+            <hr />
+
+            <!-- * * * * * * * * * * * * * * * * * * * * 
+            DAY 6
+            * * * * * * * * * * * * * * * * * * * *  -->
+            <div class="day-container">
+                <div>
+                    <h1>Day 6 - Oct 15</h1>
+                    <div class="schedule">
+                        <div class="schedule-item">
+                            <span>8:00 - 9:30</span> 1. Objects
+                        </div>
+                        <div class="schedule-item">
+                            <span>9:30 - 9:45</span>Break
+                        </div>
+                        <div class="schedule-item">
+                            <span>9:45 - 10:30</span> 2. Error Handling
+                        </div>
+
+                        <div class="schedule-item">
+                            <span>10:30 - 10:45</span> Break
+                        </div>
+                        <div class="schedule-item">
+                            <span>10:45 - 11:30</span> 3. Regex
+                        </div>
+
+                        <div class="schedule-item">
+                            <span>11:30 - 12:30</span> Lunch
+                        </div>
+                        <div class="schedule-item">
+                            <span>12:30 - 1:30</span> Assignment #3
+                        </div>
+                        <div class="schedule-item">
+                            <span>1:30 - 1:45</span> Break
+                        </div>
+                        <div class="schedule-item">
+                            <span>1:45 - 3:00</span> Assignment #3
+                        </div>
+                    </div>
+                </div>
+                <div class="day-details">
+                    <div class="day-details-section">
+                        <h2>Day 6</h2>
+                        <p>Read Chapters 6, 8, 9</p>
+                        <p>
+                            <a
+                                href="https://github.com/dodgeblaster/jscourse/tree/master/chapters/Day6"
+                                >Overview</a
+                            >
+                        </p>
+                    </div>
+                    <div class="day-details-section">
+                        <h2>1. Objects</h2>
+                        <p><a href="https://github.com/dodgeblaster/jscourse/tree/master/chapters/Day6/01_Objects">Notes</a></p>
+                    
+                    </div>
+                    <div class="day-details-section">
+                        <h2>2. Error Handling</h2>
+                        <p><a href="https://github.com/dodgeblaster/jscourse/tree/master/chapters/Day6/02_ErrorHandling">Notes</a></p>
+                     
+                    </div>
+                    <div class="day-details-section">
+                        <h2>3. Regex</h2>
+                        <p><a href="https://github.com/dodgeblaster/jscourse/tree/master/chapters/Day6/03_Regex">Notes</a></p>
+                    
+                    </div>
+                </div>
+            </div>
+
+            <hr />
+
+            <!-- * * * * * * * * * * * * * * * * * * * * 
+            DAY 7
+            * * * * * * * * * * * * * * * * * * * *  -->
+            <div class="day-container">
+                <div>
+                    <h1>Day 7 - Oct 16</h1>
+                    <div class="schedule">
+                        <div class="schedule-item">
+                            <span>8:00 - 9:30</span> 1. NPM
+                        </div>
+                        <div class="schedule-item">
+                            <span>9:30 - 9:45</span>Break
+                        </div>
+                        <div class="schedule-item">
+                            <span>9:45 - 10:30</span> 2. Modules
+                        </div>
+
+                        <div class="schedule-item">
+                            <span>10:30 - 10:45</span> Break
+                        </div>
+                        <div class="schedule-item">
+                            <span>10:45 - 11:30</span> 3. Webpack
+                        </div>
+
+                        <div class="schedule-item">
+                            <span>11:30 - 12:30</span> Lunch
+                        </div>
+                        <div class="schedule-item">
+                            <span>12:30 - 1:30</span> Assignment #4
+                        </div>
+                        <div class="schedule-item">
+                            <span>1:30 - 1:45</span> Break
+                        </div>
+                        <div class="schedule-item">
+                            <span>1:45 - 3:00</span> Assignment #4
+                        </div>
+                    </div>
+                </div>
+                <div class="day-details">
+                    <div class="day-details-section">
+                        <h2>Day 7</h2>
+                        <p>Read Chapters 10</p>
+                        <p>
+                            <a
+                                href="https://github.com/dodgeblaster/jscourse/tree/master/chapters/Day7"
+                                >Overview</a
+                            >
+                        </p>
+                    </div>
+                  
+                </div>
+            </div>
+
+            <hr />
+
+            <!-- * * * * * * * * * * * * * * * * * * * * 
+            DAY 8
+            * * * * * * * * * * * * * * * * * * * *  -->
+            <div class="day-container">
+                <div>
+                    <h1>Day 8 - Oct 17</h1>
+                    <div class="schedule">
+                        <div class="schedule-item">
+                            <span>8:00 - 9:30</span> 1. React
+                        </div>
+                        <div class="schedule-item">
+                            <span>9:30 - 9:45</span>Break
+                        </div>
+                        <div class="schedule-item">
+                            <span>9:45 - 10:30</span> 1. React
+                        </div>
+
+                        <div class="schedule-item">
+                            <span>10:30 - 10:45</span> Break
+                        </div>
+                        <div class="schedule-item">
+                            <span>10:45 - 11:30</span> 1. React
+                        </div>
+
+                        <div class="schedule-item">
+                            <span>11:30 - 12:30</span> Lunch
+                        </div>
+                        <div class="schedule-item">
+                            <span>12:30 - 1:30</span> Assignment #4
+                        </div>
+                        <div class="schedule-item">
+                            <span>1:30 - 1:45</span> Break
+                        </div>
+                        <div class="schedule-item">
+                            <span>1:45 - 3:00</span> Assignment #4
+                        </div>
+                    </div>
+                </div>
+                <div class="day-details">
+                    <div class="day-details-section">
+                        <h2>Day 8</h2>
+                        <p>No Reading</p>
+                        <p>
+                            <a
+                                href="https://github.com/dodgeblaster/jscourse/tree/master/chapters/Day8"
+                                >Overview</a
+                            >
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <hr />
+
+            <!-- * * * * * * * * * * * * * * * * * * * * 
+            DAY 9
+            * * * * * * * * * * * * * * * * * * * *  -->
+            <div class="day-container">
+                <div>
+                    <h1>Day 9 - Oct 18</h1>
+                    <div class="schedule">
+                        <div class="schedule-item">
+                            <span>8:00 - 9:30</span> 1. React
+                        </div>
+                        <div class="schedule-item">
+                            <span>9:30 - 9:45</span>Break
+                        </div>
+                        <div class="schedule-item">
+                            <span>9:45 - 10:30</span> 1. React
+                        </div>
+
+                        <div class="schedule-item">
+                            <span>10:30 - 10:45</span> Break
+                        </div>
+                        <div class="schedule-item">
+                            <span>10:45 - 11:30</span> 1. React
+                        </div>
+
+                        <div class="schedule-item">
+                            <span>11:30 - 12:30</span> Lunch
+                        </div>
+                        <div class="schedule-item">
+                            <span>12:30 - 1:30</span> Assignment #4
+                        </div>
+                        <div class="schedule-item">
+                            <span>1:30 - 1:45</span> Break
+                        </div>
+                        <div class="schedule-item">
+                            <span>1:45 - 3:00</span> Assignment #4
+                        </div>
+                    </div>
+                </div>
+                <div class="day-details">
+                    <div class="day-details-section">
+                        <h2>Day 9</h2>
+                        <p>No Reading</p>
+                        <p>
+                            <a
+                                href="https://github.com/dodgeblaster/jscourse/tree/master/chapters/Day9"
+                                >Overview</a
+                            >
+                        </p>
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
     </body>
 </html>
